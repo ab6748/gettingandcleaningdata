@@ -1,5 +1,5 @@
 ## MERGES TRAIN AND TEST SETS INTO ONE DATA SET (INCLUDING SUBJECTS AND ACTIVITIES)
-# Combines Subjects, activities and variables per data set.
+### Combines Subjects, activities and variables per data set.
 datatest <- cbind(read.table("./UCI HAR Dataset/test/subject_test.txt"), read.table("./UCI HAR Dataset/test/y_test.txt"), read.table("./UCI HAR Dataset/test/X_test.txt"))
 datatrain <- cbind(read.table("./UCI HAR Dataset/train/subject_train.txt"), read.table("./UCI HAR Dataset/train/y_train.txt"), read.table("./UCI HAR Dataset/train/X_train.txt"))
 # Merges both data sets into one.

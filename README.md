@@ -1,11 +1,7 @@
 ## Getting and Cleaning Data
 ### Course Project
 
-In the document below, you can find the script separated by 
-# TITLES 
-that break the script into the different sections required in the assignment. Additionally, some scrip lines will have individual
-### comments
-to explain why they were used.
+In the document below, you can find the script separated by titles that break the script into the different sections required in the assignment. Additionally, some scrip lines will have individual comments to explain why they were used.
 
 # MERGES TRAIN AND TEST SETS INTO ONE DATA SET (INCLUDING SUBJECTS AND ACTIVITIES)
 ### Combines Subjects, activities and variables per data set.
